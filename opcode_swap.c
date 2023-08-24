@@ -28,7 +28,7 @@ void swap(stack_t **head, unsigned int line)
 	}
 
 	ptr = *head;
-	i = prt->n;
+	i = ptr->n;
 	ptr->n = ptr->next->n;
 	ptr->next->n = i;
 }
